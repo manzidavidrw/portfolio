@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiDownload, FiAward, FiBriefcase, FiBookOpen } from 'react-icons/fi';
+import { FiDownload, FiBriefcase, FiBookOpen } from 'react-icons/fi';
 import { skills, education, experience } from '../data/skills';
 import './About.css';
 import profilePic from '../assets/pp.jpg';

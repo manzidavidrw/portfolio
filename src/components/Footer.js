@@ -4,8 +4,7 @@ import {
   FiGithub, 
   FiLinkedin, 
   FiTwitter, 
-  FiMail, 
-  FiHeart 
+  FiMail
 } from 'react-icons/fi';
 import './Footer.css';
 

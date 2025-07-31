@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { FiArrowRight, FiCode, FiLayers, FiSmartphone } from 'react-icons/fi';
+import { FiCode, FiLayers, FiSmartphone } from 'react-icons/fi';
 import { skills } from '../data/skills';
 import './Home.css';
 import profilePic from '../assets/pp.jpg';

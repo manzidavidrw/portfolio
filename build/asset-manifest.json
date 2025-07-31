@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0b0da749.css",
+    "main.js": "/static/js/main.79723d7a.js",
+    "static/media/pp.jpg": "/static/media/pp.c610fe79a87ef00c10c2.jpg",
+    "static/media/David Manzi Resume.pdf": "/static/media/David Manzi Resume.109b2f0d4130d406088d.pdf",
+    "index.html": "/index.html",
+    "main.0b0da749.css.map": "/static/css/main.0b0da749.css.map",
+    "main.79723d7a.js.map": "/static/js/main.79723d7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b0da749.css",
+    "static/js/main.79723d7a.js"
+  ]
+}
