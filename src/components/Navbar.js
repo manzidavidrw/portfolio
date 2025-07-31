@@ -27,7 +27,7 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <motion.nav 
+    <motion.nav
       className={`navbar ${scrolled ? 'scrolled' : ''}`}
       initial={{ y: -100 }}
       animate={{ y: 0 }}
@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       <div className="container">
         <Link to="/" className="navbar-brand">
-          <motion.h1 
+          <motion.h1
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.2 }}
           >
@@ -43,15 +43,15 @@ const Navbar = () => {
           </motion.h1>
         </Link>
 
-        <div className="navbar-menu">
-          <ul className={`navbar-nav ${isOpen ? 'active' : ''}`}>
+        <div className={`navbar-menu ${isOpen ? 'active' : ''}`}>
+          <ul className="navbar-nav">
             {navItems.map((item) => (
-              <motion.li 
+              <motion.li
                 key={item.path}
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.2 }}
               >
-                <Link 
+                <Link
                   to={item.path}
                   className={`nav-link ${location.pathname === item.path ? 'active' : ''}`}
                   onClick={() => setIsOpen(false)}
@@ -62,6 +62,7 @@ const Navbar = () => {
             ))}
           </ul>
         </div>
+
 
         <button className="navbar-toggle" onClick={toggleMenu}>
           {isOpen ? <FiX /> : <FiMenu />}
